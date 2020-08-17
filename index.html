@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NUMBER_COUNTER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <!--Shoelace - Web Component Library-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.css">
     <link rel="stylesheet" href="./style.css">
@@ -11,10 +12,23 @@
 <body>
     
 
-    <sl-button>RESET</sl-button>
-    <sl-button>INCREASE</sl-button>
-    <sl-button>DECREASE</sl-button>
 
+    <main>
+        <div class="container">
+            <h1>COUNTER</h1>
+            <span id="value">0</span>
+
+                <div class="button-container">
+                        <sl-button>RESET</sl-button>
+                        <sl-button>INCREASE</sl-button>
+                        <sl-button>DECREASE</sl-button>
+                </div>
+
+        </div>
+    </main>
+
+
+    
     <!--Shoelace - Web Component Library-->
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.esm.js"></script>
     <script type="module" src="./app.js"></script>
