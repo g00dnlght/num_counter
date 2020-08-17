@@ -35,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    row-gap: 0.8em;
 
     color: whitesmoke;
 }
@@ -58,4 +59,17 @@ sl-button::part(base):focus {
 sl-button::part(base):active {
     box-shadow: none;
     transform: scale(0.95, 0.95);
+}
+/*
+===============
+STYLE THE TEXT
+===============
+*/
+h1 {
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+}
+span {
+    font-weight: 300;
 }
