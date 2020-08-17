@@ -21,7 +21,7 @@ btns.forEach(function (btn) { // "btn" can be anything.
             value.style.color = 'limegreen';
         }
         if(count < 0){
-            value.style.color = 'crimson';
+            value.style.color = 'deeppink';
         } 
         if(count === 0){
             value.style.color = 'whitesmoke';

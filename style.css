@@ -61,6 +61,21 @@ sl-button::part(base):active {
     transform: scale(0.95, 0.95);
 }
 /*
+=======================
+STYLE THE RESET BUTTON
+=======================
+*/
+.reset::part(base) {
+    background: rgb(245, 245, 245);
+    color: black;
+}
+.reset::part(base):focus {
+    background: rgb(245, 245, 245);
+}
+.reset::part(base):hover {
+    background: rgb(211, 211, 211);
+}
+/*
 ===============
 STYLE THE TEXT
 ===============
@@ -71,5 +86,5 @@ h1 {
     font-size: 1.5em;
 }
 span {
-    font-weight: 300;
+    font-weight: 200;
 }
