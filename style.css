@@ -51,3 +51,10 @@ sl-button::part(base) {
     color: white;
     border: none;
 }
+sl-button::part(base):focus {
+    box-shadow: none;
+}
+sl-button::part(base):active {
+    box-shadow: none;
+    transform: scale(0.95, 0.95);
+}
