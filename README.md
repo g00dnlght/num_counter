@@ -1,2 +1,2 @@
 # num_counter
- JavaScript number counter.
+ This is a dummy repo for vanilla JS number counter.
