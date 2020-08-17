@@ -1,13 +1,28 @@
+/*
+==============================================
+SET THE MAIN FONT & BACKGROUND OF THE DOCUMENT
+==============================================
+*/
 :root {
     font-family: 'Roboto Slab', serif;
     background: rgb(41, 102, 194);
 }
+/*
+===============================
+SELECT ALL ELEMENTS ON THE PAGE
+===============================
+*/
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
+/*
+===========================
+CENTER THE BODY & CONTAINER
+===========================
+*/
 body {
     display: flex;
     justify-content: center;
@@ -20,4 +35,19 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    color: whitesmoke;
+}
+/*
+=================
+STYLE THE BUTTONS
+=================
+*/
+sl-button::part(base):hover {
+    background: rgb(41, 41, 41);
+}
+sl-button::part(base) {
+    background: rgb(27, 27, 27);
+    color: white;
+    border: none;
 }
