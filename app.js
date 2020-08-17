@@ -17,6 +17,15 @@ btns.forEach(function (btn) { // "btn" can be anything.
         else{
             count = 0;
         }
+        if(count > 0){
+            value.style.color = 'limegreen';
+        }
+        if(count < 0){
+            value.style.color = 'crimson';
+        } 
+        if(count === 0){
+            value.style.color = 'whitesmoke';
+        }
         value.textContent = count;
     });
 });
