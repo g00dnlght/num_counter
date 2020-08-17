@@ -43,17 +43,18 @@ body {
 STYLE THE BUTTONS
 =================
 */
-sl-button::part(base):hover {
-    background: rgb(41, 41, 41);
-}
 sl-button::part(base) {
     background: rgb(27, 27, 27);
     color: white;
     border: none;
 }
+sl-button::part(base):hover {
+    background: rgb(41, 41, 41);
+}
 sl-button::part(base):focus {
     box-shadow: none;
 }
+/* When clicking, what happens? */
 sl-button::part(base):active {
     box-shadow: none;
     transform: scale(0.95, 0.95);
