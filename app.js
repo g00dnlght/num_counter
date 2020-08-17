@@ -5,6 +5,12 @@ let count = 0;
 const value = document.querySelector('#value');
 const btns = document.querySelectorAll('.btn');
 
-btns.forEach(function (orange) {
-    console.log(orange);
+btns.forEach(function (btn) { // "btn" can be anything.
+    btn.addEventListener('click', function(e){
+        const styles = e.currentTarget.classList;
+        if(styles.contains('decrease')){
+            count--;
+        }
+        value.textContent = count;
+    });
 });
