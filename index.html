@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NUMBER_COUNTER</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!--Shoelace - Web Component Library-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.css">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <!--Added fav icon.-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-
-</head>
-<body>
-    
-
-
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+  </head>
+  <body>
     <main>
-        <div class="container">
-            <h1>COUNTER</h1>
-            <span id="value">0</span>
+      <div class="container">
+        <h1>COUNTER</h1>
+        <span id="value">0</span>
 
-                <div class="button-container">
-                        <sl-button class="btn decrease">DECREASE</sl-button>
-                        <sl-button class="btn reset">RESET</sl-button>
-                        <sl-button class="btn increase">INCREASE</sl-button>
-                </div>
-
+        <div class="button-container">
+          <sl-button class="btn decrease">DECREASE</sl-button>
+          <sl-button class="btn reset">RESET</sl-button>
+          <sl-button class="btn increase">INCREASE</sl-button>
         </div>
+      </div>
     </main>
 
-
-
     <!--Shoelace - Web Component Library-->
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.esm.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.13/dist/shoelace/shoelace.esm.js"
+    ></script>
     <script type="module" src="./app.js"></script>
-</body>
+  </body>
 </html>
