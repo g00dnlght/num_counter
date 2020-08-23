@@ -4,8 +4,8 @@ SET THE MAIN FONT & BACKGROUND OF THE DOCUMENT
 ==============================================
 */
 :root {
-    font-family: 'Roboto Slab', serif;
-    background: rgb(51, 91, 150);
+  font-family: "Roboto Slab", serif;
+  background: rgb(51, 91, 150);
 }
 /*
 ===============================
@@ -13,10 +13,10 @@ SELECT ALL ELEMENTS ON THE PAGE
 ===============================
 */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 /*
 ===========================
@@ -24,20 +24,20 @@ CENTER THE BODY & CONTAINER
 ===========================
 */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.8em;
 
-    color: whitesmoke;
+  color: whitesmoke;
 }
 /*
 =================
@@ -45,20 +45,20 @@ STYLE THE BUTTONS
 =================
 */
 sl-button::part(base) {
-    background: rgb(27, 27, 27);
-    color: white;
-    border: none;
+  background: rgb(27, 27, 27);
+  color: white;
+  border: none;
 }
 sl-button::part(base):hover {
-    background: rgb(41, 41, 41);
+  background: rgb(41, 41, 41);
 }
 sl-button::part(base):focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 /* When clicking, what happens? */
 sl-button::part(base):active {
-    box-shadow: none;
-    transform: scale(0.95, 0.95);
+  box-shadow: none;
+  transform: scale(0.95, 0.95);
 }
 /*
 =======================
@@ -66,14 +66,14 @@ STYLE THE RESET BUTTON
 =======================
 */
 .reset::part(base) {
-    background: rgb(245, 245, 245);
-    color: black;
+  background: rgb(245, 245, 245);
+  color: black;
 }
 .reset::part(base):focus {
-    background: rgb(245, 245, 245);
+  background: rgb(245, 245, 245);
 }
 .reset::part(base):hover {
-    background: rgb(211, 211, 211);
+  background: rgb(211, 211, 211);
 }
 /*
 ===============
@@ -81,10 +81,10 @@ STYLE THE TEXT
 ===============
 */
 h1 {
-    font-weight: 800;
-    letter-spacing: 4px;
-    font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 1.5em;
 }
 span {
-    font-weight: 200;
+  font-weight: 200;
 }
